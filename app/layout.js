@@ -1,15 +1,15 @@
+// app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "./globals.css";
+import BootInit from "@/components/BootInit";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Preloader from "@/components/Preloader";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -19,8 +19,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Template styles from /public/css */}
+        <link rel="stylesheet" href="/css/all.min.css" />
+        <link rel="stylesheet" href="/css/animate.css" />
+        <link rel="stylesheet" href="/css/custom.css" />
+        {/* add any others you actually need */}
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Preloader/>
+        <BootInit />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
