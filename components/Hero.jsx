@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="col-lg-12">
             <div className="hero-content">
               <div className="section-title">
-                <h1 className="wow fadeInUp hero-title" data-cursor="-opaque">
+                <h1 className="wow fadeInUp hero-title" >
                   {title.pre}
                   <span>{title.highlight}</span>
                   {title.post}

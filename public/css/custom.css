@@ -425,14 +425,14 @@ body{
 	font-weight: 600;
     letter-spacing: -0.02em;
 	margin-bottom: 0;
-	cursor: none;
+	
 }
 
 .section-title h2{
 	font-size: 48px;
 	font-weight: 300;
 	margin-bottom: 0;
-	cursor: none;
+	
 }
 
 .section-title h1 span,
@@ -1371,7 +1371,7 @@ header.main-header .header-sticky.active{
 
 .project-image a{
 	display: block;
-	cursor: none;
+
 }
 
 .project-image figure{
@@ -1806,7 +1806,7 @@ header.main-header .header-sticky.active{
 } 
 
 .testimonial-slider .swiper-wrapper{
-    cursor: none;
+   
 } 
 
 .testimonial-header{
@@ -2220,7 +2220,7 @@ header.main-header .header-sticky.active{
 	font-weight: 600;
     letter-spacing: -0.02em;
 	margin-bottom: 15px;
-	cursor: none;
+	
 }
 
 .page-header-box h1 span{
@@ -2513,7 +2513,7 @@ header.main-header .header-sticky.active{
 .team-image figure,
 .team-image a{
     display: block;
-    cursor: none;
+   
 }
 
 .team-image img{
@@ -3767,7 +3767,7 @@ header.main-header .header-sticky.active{
 }
 
 .page-gallery-box .photo-gallery a{
-	cursor: none;
+
 }
 
 .page-gallery-box .photo-gallery figure{
@@ -3799,7 +3799,7 @@ header.main-header .header-sticky.active{
 .video-gallery-image a{
 	position: relative;
 	display: block;
-	cursor: none;
+	
 }
 
 .video-gallery-image a::before{
@@ -3840,7 +3840,7 @@ header.main-header .header-sticky.active{
     border-radius: 50%;
     height: 60px;
     width: 60px;
-    cursor: none;
+    
 	display: flex;
 	align-items: center;
 	justify-content: center;

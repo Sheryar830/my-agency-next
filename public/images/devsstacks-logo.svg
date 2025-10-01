@@ -1,0 +1,26 @@
+<svg width="920" height="240" viewBox="0 0 920 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DevsStacks">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4C73FE"/>
+      <stop offset="100%" stop-color="#7A3BF2"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g transform="translate(20,20)" filter="url(#softGlow)">
+    <rect x="26" y="0" width="128" height="128" rx="24" transform="rotate(45 90 64)" fill="url(#grad)"/>
+    <rect x="12" y="122" width="156" height="22" rx="11" fill="url(#grad)"/>
+    <rect x="0" y="154" width="180" height="22" rx="11" fill="url(#grad)"/>
+  </g>
+  <g transform="translate(240,54)">
+    <text font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="84" font-weight="700" fill="#FFFFFF" letter-spacing="0.2">
+      Devs<tspan font-weight="800">Stacks</tspan>
+    </text>
+    <rect x="2" y="102" width="300" height="6" rx="3" fill="#FBAA28" opacity="0.85"/>
+  </g>
+</svg>

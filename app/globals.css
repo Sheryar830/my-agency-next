@@ -102,3 +102,50 @@
 /* Responsive card widths (optional) */
 @media (max-width: 1200px) { .tms-card { min-width: 300px; } }
 @media (max-width: 640px)  { .tms-card { min-width: 260px; } }
+
+
+
+.section-title.section-title-center {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -32px;
+}
+
+
+.how-it-work {
+    padding: 80px 0;
+    margin-top: -120px;
+}
+
+
+
+.testimonial-wrap { padding: 60px 0 70px; background:#0e0e0e; color:#fff; overflow:hidden; }
+.testimonial-title { text-align:center; font-size:28px; font-weight:700; margin-bottom:28px; }
+.tms-rows { display:flex; flex-direction:column; gap:28px; }
+
+/* keep the marquee smooth */
+.tms-row .swiper-wrapper { transition-timing-function: linear !important; }
+
+.testimonial-card {
+  background:#1c1c1c;
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 6px 18px rgba(0,0,0,.25);
+  height:100%;
+}
+.testimonial-header { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+.testimonial-avatar { width:52px; height:52px; border-radius:50%; object-fit:cover; border:2px solid #fbab28; }
+.testimonial-sep { border:0; height:1px; background:rgba(255,255,255,.1); margin:14px 0; }
+.testimonial-text { color:#ddd; font-style:italic; line-height:1.6; }
+
+/* slide spacing */
+.swiper-slide { height:auto; }
+
+
+.footer-logo img {
+    width: 100%;
+    max-width: 258px;
+}
+

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -21,9 +21,9 @@ const Contact = () => {
 
         <div className="row">
           <div className="col-lg-12">
-            {/* <!-- Contact Us Form Start --> */}
+            {/* Contact Us Form Start */}
             <div className="conatct-us-form">
-              {/* <!-- Contact Form Start --> */}
+              {/* Contact Form Start */}
               <div className="contact-form">
                 <div className="section-title">
                   <h2 className="wow fadeInUp" data-cursor="-opaque">
@@ -107,30 +107,53 @@ const Contact = () => {
                         <div id="msgSubmit" className="h3 hidden"></div>
                       </div>
                     </div>
+
+                    {/* WhatsApp Button Below Form */}
+                    <div className="col-lg-12 mt-4">
+                      <a
+                        href="https://wa.me/923094726782"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-default"
+                        style={{
+                          display: 'inline-block',
+                          backgroundColor: '#25D366',
+                          color: 'white',
+                          padding: '12px 24px',
+                          borderRadius: '5px',
+                          textDecoration: 'none',
+                          fontWeight: 'bold',
+                        }}
+                      >
+                        <i className="bi bi-whatsapp" style={{ marginRight: '8px' }}></i>
+                        Chat on WhatsApp
+                      </a>
+                    </div>
                   </div>
                 </form>
               </div>
 
-              {/* <!-- Google Map Iframe Start --> */}
-              <div className="google-map-iframe">
+              {/* Google Map Iframe Start */}
+              <div className="google-map-iframe mt-5">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.1483162957446!2d74.535!3d32.494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391eeaf5c5c2b7f7%3A0x123456789!2sSialkot%2C%20Pakistan!5e0!3m2!1sen!2s!4v1703158537552!5m2!1sen!2s"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
+                  style={{ width: '100%', height: '600px', border: '0' }}
                 ></iframe>
               </div>
-              {/* <!-- Google Map Iframe End --> */}
+              {/* Google Map Iframe End */}
             </div>
           </div>
 
           <div className="col-lg-12">
-            {/* <!-- Contact Info List Start --> */}
-            <div className="contact-info-list">
+            {/* Contact Info List Start */}
+            <div className="contact-info-list mt-5">
               {/* Phone */}
               <div className="contact-info-item wow fadeInUp">
                 <div className="icon-box">
-                  <img src="images/icon-phone.svg" alt="" />
+                  <img src="images/icon-phone.svg" alt="Phone" />
                 </div>
                 <div className="contact-info-content">
                   <h3>contact us</h3>
@@ -146,7 +169,7 @@ const Contact = () => {
                 data-wow-delay="0.2s"
               >
                 <div className="icon-box">
-                  <img src="images/icon-mail.svg" alt="" />
+                  <img src="images/icon-mail.svg" alt="Email" />
                 </div>
                 <div className="contact-info-content">
                   <h3>email us</h3>
@@ -164,7 +187,7 @@ const Contact = () => {
                 data-wow-delay="0.4s"
               >
                 <div className="icon-box">
-                  <img src="images/icon-clock.svg" alt="" />
+                  <img src="images/icon-clock.svg" alt="Hours" />
                 </div>
                 <div className="contact-info-content">
                   <h3>Working hours</h3>
@@ -179,20 +202,23 @@ const Contact = () => {
                 data-wow-delay="0.6s"
               >
                 <div className="icon-box">
-                  <img src="images/icon-location.svg" alt="" />
+                  <img src="images/icon-location.svg" alt="Location" />
                 </div>
                 <div className="contact-info-content">
                   <h3>location</h3>
                   <p>Sialkot, Pakistan</p>
                 </div>
               </div>
+
+              {/* WhatsApp */}
+              
             </div>
-            {/* <!-- Contact Info List End --> */}
+            {/* Contact Info List End */}
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -11,7 +11,12 @@ const Navbar = () => {
           <div className="container">
             {/* <!-- Logo Start --> */}
             <Link className="navbar-brand" href="/">
-              {/* <img src="/images/logo.svg" alt="Logo" /> */}
+              <img
+                src="/images/Untitled design (1).png"
+                alt="DevsStacks Logo"
+                height={44}
+                style={{ maxWidth: "300px" }}
+              />
             </Link>
             {/* <!-- Logo End --> */}
 
@@ -47,7 +52,7 @@ const Navbar = () => {
                       Services
                     </Link>
                   </li>
-                   <li className="nav-item">
+                  <li className="nav-item">
                     <Link className="nav-link" href="/project">
                       Our Projects
                     </Link>

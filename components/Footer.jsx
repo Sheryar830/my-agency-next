@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-4">
             <div className="about-footer">
               <div className="footer-logo">
-                {/* <img src="/images/footer-logo.svg" alt="" /> */}
+                <img src="/images/Untitled design (1).png" alt="" />
               </div>
             </div>
           </div>

@@ -16,9 +16,9 @@ export default function AboutPage() {
       <AboutStats/>
       <Facts/>
       <Solutions/>
-      <Team/>
-      <Whatwedo/>
-      <TestimonialsMarquee/>
+      {/* <Team/> */}
+     
+     
     </>
   );
 }
